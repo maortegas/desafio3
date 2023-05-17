@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+body{
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    margin: 0;    
+}
+
+.header{
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;  
+    justify-content:center;
+    height: 73px;
+}
+
+.header_titulo{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 1;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.main{
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+    opacity: 1;
+    text-align: center;
+}
+
+.article{
+    width: 1280px;
+    height: 348px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    background: #000000;
+}
+
+.article img{
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+}
+
+.article p{
+    width: 475px;
+    margin-top: 3em;
+}
+
+.caracteristicas{
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    height: 348px;
+    background: #1E1A13;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.caracteristicas_text_p {
+    margin-block: 0;
+}
+.caracteristicas_text{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    text-align:center;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icono{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.imagenes{
+    display: flex;
+    justify-content:center;
+    margin-top: 0;
+    margin-left: 0;
+    background: #000000;
+    width: 1280px;
+    height: 348px;
+    align-items: center;
+    left: 150px;
+}
+
+.imagenes img{
+    width: 316px;
+    height: 202px;
+    padding: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #1E1A13;
+    height: 102px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
